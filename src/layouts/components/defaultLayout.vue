@@ -1,5 +1,5 @@
 <script setup>
-import {computed, onMounted, ref} from 'vue'
+import {onMounted, ref} from 'vue'
 import drawerContent from '@/layouts/components/drawerContent.vue';
 import navItem from '@/layouts/navigations/index'
 import { RouterView } from 'vue-router';
@@ -13,9 +13,6 @@ const drawer = ref(null)
 const onDrawer = () => {
     return drawer.value = !drawer.value
 }
-
-onMounted(() => {
-})
 </script>
 <template>
     <v-app
