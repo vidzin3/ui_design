@@ -4,7 +4,7 @@ const instance = getCurrentInstance()
 const $myGlobalFunction = instance.appContext.config.globalProperties
 
 type ImageToBase64 = undefined | {
-
+  
 }
 
 declare module "@vue/runtime-core" {
